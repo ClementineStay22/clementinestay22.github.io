@@ -5,21 +5,27 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <h1>Widget Page</h1>
+  <div class="header">
+    <img src="https://stay22-partnersuccess.s3.amazonaws.com/o45sbwmuekxb1ebyd1v7.png" alt="Logo">
+  </div>
+
+  <div class="container">
+    <h1>Widget Page</h1>
   
-  <input type="file" id="csvFile" accept=".csv">
-  <button id="importBtn">Import CSV</button>
-  <button id="generateBtn">GENERATE</button>
+    <input type="file" id="csvFile" accept=".csv">
+    <button id="importBtn">Import CSV</button>
+    <button id="generateBtn">GENERATE</button>
 
-  <div id="result">
-    <h2>Top 10 Campaigns</h2>
-    <ul id="campaignList"></ul>
+    <div id="result">
+      <h2>Top 10 Campaigns</h2>
+      <ul id="campaignList"></ul>
 
-    <h2>Top 10 Destination Cities</h2>
-    <ul id="cityList"></ul>
+      <h2>Top 10 Destination Cities</h2>
+      <ul id="cityList"></ul>
 
-    <h2>Top 10 Destination Countries</h2>
-    <ul id="countryList"></ul>
+      <h2>Top 10 Destination Countries</h2>
+      <ul id="countryList"></ul>
+    </div>
   </div>
 
   <script src="script.js"></script>
