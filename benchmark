@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BENCHMARK C/B% RATIO</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- HTML content -->
+
+  <script src="script.js"></script><h1>BENCHMARK C/B% RATIO</h1>
+  
+  <form id="uploadForm">
+    <input type="file" id="csvFileInput" accept=".csv">
+    <div>
+      <label for="sourceDropdown">Source:</label>
+      <select id="sourceDropdown">
+        <option value="all">All</option>
+        <option value="direct">Direct</option>
+        <option value="pop">Pop</option>
+        <option value="embed">Embed</option>
+        <!-- Add more source options as needed -->
+      </select>
+    </div>
+    <div>
+      <label for="productDropdown">Product:</label>
+      <select id="productDropdown">
+        <option value="all">All</option>
+        <option value="allez">Allez</option>
+        <option value="lma">LMA</option>
+        <option value="map">MAP</option>
+        <option value="hybrid">Hybrid</option>
+        <option value="listview">List View</option>
+        <!-- Add more product options as needed -->
+      </select>
+    </div>
+    <div>
+      <label for="deviceDropdown">Device:</label>
+      <select id="deviceDropdown">
+        <option value="all">All</option>
+        <option value="desktop">Desktop</option>
+        <option value="phone">Phone</option>
+        <option value="tablet">Tablet</option>
+        <!-- Add more device options as needed -->
+      </select>
+    </div>
+    <div>
+      <label for="countryDropdown">Country:</label>
+      <select id="countryDropdown">
+        <option value="all">All</option>
+        <option value="undefined">Undefined</option>
+        <option value="Albania">Albania</option>
+        <option value="Algeria">Algeria</option>
+        <option value="Andorra">Andorra</option>
+        <!-- Add more country options as needed -->
+      </select>
+    </div>
+    <div>
+      <label for="providerDropdown">Provider:</label>
+      <select id="providerDropdown">
+        <option value="all">All</option>
+        <option value="booking">Booking</option>
+        <option value="expedia">Expedia</option>
+        <option value="vrbo">VRBO</option>
+        <option value="hotelscom">Hotels.com</option>
+        <option value="airbnb">Airbnb</option>
+        <option value="kayak">Kayak</option>
+        <option value="tripadvisor">TripAdvisor</option>
+        <option value="trivago">Trivago</option>
+        <option value="opentable">OpenTable</option>
+        <option value="getyourguide">GetYourGuide</option>
+        <option value="parkimeter">Parkimeter</option>
+        <!-- Add more provider options as needed -->
+      </select>
+    </div>
+    <button type="button" id="calculateButton">Calculate Ratio</button>
+  </form>
+  
+  <div id="result"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
